@@ -16,7 +16,7 @@ export const Button = ({ className, href, onClick, children, px, white }) => {
 
   const renderLink = () => (
     <a href={href} className={classes}>
-      <span className={className}>{children}</span>
+      <span className={spanClasses}>{children}</span>
       {ButtonSvg(white)}
     </a>
   );
